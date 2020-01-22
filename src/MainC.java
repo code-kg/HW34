@@ -18,7 +18,7 @@ public class MainC {
         Scanner scanner = new Scanner(fileReader);
         while (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
-            fileWriter.close();
+            fileReader.close();
         }
     }
 }
